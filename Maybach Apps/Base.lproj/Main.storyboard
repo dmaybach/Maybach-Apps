@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Maybach_Apps" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w3d-9f-Xu8">
+                                <rect key="frame" x="16" y="249" width="568" height="101"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="101" id="ZqW-xo-XJL"/>
+                                </constraints>
+                                <string key="text">If a leader can't get a message across clearly and motivate others to act on it, then having a message doesn't even matter. Gilbert AmelioIf a leader can't get a message across clearly and motivate others to act on it, then having a message doesn't even matter. Gilbert Amelio</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tweet this!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Odv-Cc-NVF">
+                                <rect key="frame" x="62" y="66" width="110" height="22"/>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iTd-xf-3Js">
+                                <rect key="frame" x="192" y="459" width="216" height="61"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="LRh-KS-aSp"/>
+                                    <constraint firstAttribute="width" constant="216" id="u3T-OB-slg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Medium" family="Heiti SC" pointSize="14"/>
+                                <color key="tintColor" red="0.34901960784313724" green="0.67843137254901964" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Fun Quotes">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="showFunFact" destination="vXZ-lx-hvc" eventType="touchUpInside" id="RFO-hq-2Pb"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="twitter icon" translatesAutoresizingMaskIntoConstraints="NO" id="2JC-px-Vcb">
+                                <rect key="frame" x="16" y="62" width="38" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="38" id="1sc-Da-GH1"/>
+                                    <constraint firstAttribute="height" constant="30" id="mwQ-Nr-8sb"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.34901960784313724" green="0.67843137254901964" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="2JC-px-Vcb" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="0FG-gI-KnM"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="iTd-xf-3Js" secondAttribute="bottom" constant="80" id="4yO-yW-1v3"/>
+                            <constraint firstItem="Odv-Cc-NVF" firstAttribute="leading" secondItem="2JC-px-Vcb" secondAttribute="trailing" constant="8" symbolic="YES" id="EQe-wa-C2V"/>
+                            <constraint firstItem="w3d-9f-Xu8" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="229" id="PqI-P7-ebP"/>
+                            <constraint firstItem="w3d-9f-Xu8" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="VcP-Y0-OW0"/>
+                            <constraint firstItem="2JC-px-Vcb" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="42" id="Ztz-C2-daq"/>
+                            <constraint firstItem="w3d-9f-Xu8" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="cD9-od-vwF"/>
+                            <constraint firstItem="iTd-xf-3Js" firstAttribute="centerX" secondItem="w3d-9f-Xu8" secondAttribute="centerX" id="cSA-hY-4Vk"/>
+                            <constraint firstItem="2JC-px-Vcb" firstAttribute="centerY" secondItem="Odv-Cc-NVF" secondAttribute="centerY" id="wIZ-Xn-T4M"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Twf-k0-BjZ"/>
+                    <connections>
+                        <outlet property="funFactLabel" destination="w3d-9f-Xu8" id="XYO-ny-ail"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2906" y="387"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="twitter icon" width="38" height="30"/>
+    </resources>
+</document>
