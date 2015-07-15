@@ -14,6 +14,8 @@
 		311709F11B4DF750003A60D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 311709EF1B4DF750003A60D2 /* LaunchScreen.xib */; };
 		311709FD1B4DF750003A60D2 /* Maybach_AppsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311709FC1B4DF750003A60D2 /* Maybach_AppsTests.swift */; };
 		31170A071B4E0784003A60D2 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31170A061B4E0784003A60D2 /* Quotes.swift */; };
+		312BB4521B55F40B00EA2156 /* AppsLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312BB4511B55F40B00EA2156 /* AppsLibrary.swift */; };
+		312BB4541B55F79900EA2156 /* Apps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312BB4531B55F79900EA2156 /* Apps.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		311709FB1B4DF750003A60D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		311709FC1B4DF750003A60D2 /* Maybach_AppsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maybach_AppsTests.swift; sourceTree = "<group>"; };
 		31170A061B4E0784003A60D2 /* Quotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
+		312BB4511B55F40B00EA2156 /* AppsLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsLibrary.swift; sourceTree = "<group>"; };
+		312BB4531B55F79900EA2156 /* Apps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Apps.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				311709E61B4DF750003A60D2 /* AppDelegate.swift */,
 				31170A061B4E0784003A60D2 /* Quotes.swift */,
 				311709E81B4DF750003A60D2 /* ViewController.swift */,
+				312BB4511B55F40B00EA2156 /* AppsLibrary.swift */,
+				312BB4531B55F79900EA2156 /* Apps.swift */,
 				311709EA1B4DF750003A60D2 /* Main.storyboard */,
 				311709ED1B4DF750003A60D2 /* Images.xcassets */,
 				311709EF1B4DF750003A60D2 /* LaunchScreen.xib */,
@@ -216,6 +222,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				311709E91B4DF750003A60D2 /* ViewController.swift in Sources */,
+				312BB4521B55F40B00EA2156 /* AppsLibrary.swift in Sources */,
+				312BB4541B55F79900EA2156 /* Apps.swift in Sources */,
 				311709E71B4DF750003A60D2 /* AppDelegate.swift in Sources */,
 				31170A071B4E0784003A60D2 /* Quotes.swift in Sources */,
 			);

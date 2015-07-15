@@ -47,7 +47,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func titlePressed(sender: UIButton) {
-        
+//        UIPasteboard.generalPasteboard().funFactLabel = FactBook.self
         
     }
     @IBAction func showFunFact() {

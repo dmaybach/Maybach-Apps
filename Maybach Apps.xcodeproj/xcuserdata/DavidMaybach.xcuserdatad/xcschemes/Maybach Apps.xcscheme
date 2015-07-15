@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "311709E01B4DF750003A60D2"
-               BuildableName = "Maybach Tweets.app"
+               BuildableName = "Maybach Apps.app"
                BlueprintName = "Maybach Apps"
                ReferencedContainer = "container:Maybach Apps.xcodeproj">
             </BuildableReference>
@@ -29,7 +29,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "311709F51B4DF750003A60D2"
-               BuildableName = "Maybach TweetsTests.xctest"
+               BuildableName = "Maybach AppsTests.xctest"
                BlueprintName = "Maybach AppsTests"
                ReferencedContainer = "container:Maybach Apps.xcodeproj">
             </BuildableReference>
@@ -47,7 +47,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "311709F51B4DF750003A60D2"
-               BuildableName = "Maybach TweetsTests.xctest"
+               BuildableName = "Maybach AppsTests.xctest"
                BlueprintName = "Maybach AppsTests"
                ReferencedContainer = "container:Maybach Apps.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "311709E01B4DF750003A60D2"
-            BuildableName = "Maybach Tweets.app"
+            BuildableName = "Maybach Apps.app"
             BlueprintName = "Maybach Apps"
             ReferencedContainer = "container:Maybach Apps.xcodeproj">
          </BuildableReference>
@@ -77,7 +77,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "311709E01B4DF750003A60D2"
-            BuildableName = "Maybach Tweets.app"
+            BuildableName = "Maybach Apps.app"
             BlueprintName = "Maybach Apps"
             ReferencedContainer = "container:Maybach Apps.xcodeproj">
          </BuildableReference>
@@ -96,7 +96,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "311709E01B4DF750003A60D2"
-            BuildableName = "Maybach Tweets.app"
+            BuildableName = "Maybach Apps.app"
             BlueprintName = "Maybach Apps"
             ReferencedContainer = "container:Maybach Apps.xcodeproj">
          </BuildableReference>
